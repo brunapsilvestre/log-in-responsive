@@ -13,6 +13,10 @@
   .image {
     float: left;
     width: 30%;
+    height: 274px;
+    background-position: center;
+    background-position-x: -129px;
+    border-top-right-radius: 0px;
   }
 
   .form {
@@ -34,7 +38,9 @@
   .image {
     float: right;
     width: 50%;
+    height: 290px;
     background-position: center;
+    border-top-left-radius: 0px;
   }
 
   .form {

@@ -64,6 +64,20 @@ main {
   margin-top: 10px;
 }
 
+.form__field-login-input,
+.form__field-password-input {
+  background-color: #ffedec;
+  border: 1px solid #b1736d;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+}
+
+.form__field-login-input:focus-within,
+.form__field-password-input:focus-within {
+  background-color: #fff;
+}
+
 .form__actions {
   margin-top: 26px;
   display: flex;
